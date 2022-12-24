@@ -154,7 +154,7 @@ echo
 
 	else
 
-		wget https://github.com/arcolinuxiso/carli_repo/raw/master/x86_64/carli-keyring-3.1-1-any.pkg.tar.zst -O /tmp/carli-keyring-3.1-1-any.pkg.tar.zst
+		wget https://github.com/prismnet/repo/raw/master/x86_64/carli-keyring-3.1-1-any.pkg.tar.zst -O /tmp/carli-keyring-3.1-1-any.pkg.tar.zst
 		sudo pacman -U --noconfirm --needed /tmp/carli-keyring-3.1-1-any.pkg.tar.zst
 		
 	fi
@@ -187,7 +187,7 @@ echo
 
 	else
 
-		wget https://github.com/arcolinuxiso/carli_repo/raw/master/x86_64/carli-mirrorlist-22.03-01-any.pkg.tar.zst -O /tmp/carli-mirrorlist-22.03-01-any.pkg.tar.zst
+		wget https://github.com/prismnet/repo/raw/master/x86_64/carli-mirrorlist-22.03-01-any.pkg.tar.zst -O /tmp/carli-mirrorlist-22.03-01-any.pkg.tar.zst
 		sudo pacman -U --noconfirm --needed /tmp/carli-mirrorlist-22.03-01-any.pkg.tar.zst
 	fi
 
